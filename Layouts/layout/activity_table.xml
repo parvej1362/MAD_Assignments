@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Student Info Table"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <TableRow
+        android:background="#CCCCCC"
+        android:padding="5dp">
+        <TextView
+            android:text="Roll No"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Name"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Grade"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:text="101"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Sameer"
+            android:padding="8dp"/>
+        <TextView
+            android:text="A"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:text="102"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Rahul"
+            android:padding="8dp"/>
+        <TextView
+            android:text="B"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:text="103"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Praveen"
+            android:padding="8dp"/>
+        <TextView
+            android:text="A+"
+            android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>
