@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingTop="30dp"
+    android:fitsSystemWindows="true"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Users"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2D3436"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Table Header -->
+                <TableRow
+                    android:background="#DFE6E9">
+
+                    <TextView
+                        android:text="Name"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#2D3436"
+                        android:background="@drawable/table_cell_border"/>
+
+                    <TextView
+                        android:text="Email"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#2D3436"
+                        android:background="@drawable/table_cell_border"/>
+
+                    <TextView
+                        android:text="Password"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#2D3436"
+                        android:background="@drawable/table_cell_border"/>
+
+                    <TextView
+                        android:text="Address"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#2D3436"
+                        android:background="@drawable/table_cell_border"/>
+
+                    <TextView
+                        android:text="Action"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#2D3436"
+                        android:background="@drawable/table_cell_border"/>
+                </TableRow>
+
+                <!-- Rows will be added dynamically -->
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
